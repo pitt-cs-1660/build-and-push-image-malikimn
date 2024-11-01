@@ -23,7 +23,7 @@ jobs:
         name: Authenticate to GCP
         with:
           project_id: 'iam-permissions-440300' # your project ID
-          workload_identity_provider: 'projects/588915074981/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your provider
+          workload_identity_provider: 'projects/588915074981/locations/global/workloadIdentityPools/github/providers/my-new-repo' # updated provider
 
       # Step 3: Configure Docker to use GCP's Artifact Registry
       - name: Configure Docker for Artifact Registry
