@@ -9,6 +9,7 @@ on:
 permissions:
   contents: 'read'     # For accessing repository contents
   id-token: 'write'    # For Workload Identity Federation
+  workflows: 'write'   # To allow updating the workflow
 
 jobs:
   build-and-push-to-gcr:
