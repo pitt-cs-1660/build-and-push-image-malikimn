@@ -20,12 +20,12 @@ jobs:
         name: Authenticate to GCP
         with:
           project_id: 'build-push-project'
-          workload_identity_provider: 'projects/178208925536/locations/global/workloadIdentityPools/github'
+          workload_identity_provider: 'projects/178208925536/locations/global/workloadIdentityPools/github/providers/my-repo'
 
       - name: Configure Docker for Artifact Registry
         run: gcloud auth configure-docker us-east5-docker.pkg.dev
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t us-east5-docker.pkg.dev/build-push-project/my-repository/node-demo:v1 .
-          docker push us-east5-docker.pkg.dev/build-push-project/my-repository/node-demo:v1
+          docker build -t us-east5-docker.pkg.dev/iam-permissions-440300/build-push/node-demo:v1 .
+          docker push us-east5-docker.pkg.dev/iam-permissions-440300/build-push/node-demo:v1
