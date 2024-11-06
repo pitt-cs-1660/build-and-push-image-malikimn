@@ -1,0 +1,154 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid principalSet member (principalSet://iam.googleapis.com/projects/178208925536/locations/global/workloadIdentityPools/github/providers/my-repo/attribute.repository/pitt-cs-1660/build-and-push-image-malikimn)."
+      },
+      "authenticationInfo": {
+        "principalEmail": "mmnduati@gmail.com",
+        "principalSubject": "user:mmnduati@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.138.101.19",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/f048f213659a445199086a559d47b1e2 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T20:57:13.434184341Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+      "request": {
+        "resource": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "171ee8ud16ue",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "build-push-project"
+      }
+    },
+    "timestamp": "2024-11-06T20:57:13.425942673Z",
+    "severity": "ERROR",
+    "logName": "projects/build-push-project/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-06T20:57:13.906120996Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Role roles/somethingSpecial is not supported for this resource."
+      },
+      "authenticationInfo": {
+        "principalEmail": "mmnduati@gmail.com",
+        "principalSubject": "user:mmnduati@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.138.101.19",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/fca07bc3187744739d74167142a28cc4 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T20:58:25.234573460Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+      "request": {
+        "resource": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1pbvlnkd166s",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "build-push-project"
+      }
+    },
+    "timestamp": "2024-11-06T20:58:25.226784850Z",
+    "severity": "ERROR",
+    "logName": "projects/build-push-project/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-06T20:58:26.237170744Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "mmnduati@gmail.com",
+        "principalSubject": "user:mmnduati@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.138.101.19",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/ef2bc159b46d46a9b8f63a13780192b5 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-06T20:59:16.836920235Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+      "request": {
+        "resource": "projects/build-push-project/locations/us-east5/repositories/my-repository",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1uwd9q3d16gj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "build-push-project"
+      }
+    },
+    "timestamp": "2024-11-06T20:59:16.829652356Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-push-project/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-06T20:59:17.582226467Z"
+  }
+]
